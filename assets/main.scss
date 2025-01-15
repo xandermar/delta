@@ -1,0 +1,38 @@
+---
+---
+
+span.pubDate {
+    font-size: 10px;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(2 62 96) !important;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 1.3rem;
+    &:hover{
+        color: #ddd;
+    }
+}
+
+.full-screen {
+    margin: 1rem 0 1rem 0;
+    padding: 1rem 0 1rem 0;
+}
+
+.full-screen-last {
+    margin: 1rem 0 0 0;
+    padding: 1rem 0 1rem 0;
+}
+
+footer {
+    color: #fff;
+    ol,ul {
+        list-style-type: none;
+        padding: 0 0 0 1rem;
+        margin: 0;
+    }
+}
