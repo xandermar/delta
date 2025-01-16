@@ -1,0 +1,38 @@
+<footer class="bg-body-tertiary py-3">
+    <div class="container-xxl">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Quick Links</h3>
+                <ul>
+                {% for item in site.data.menu %}
+                    <li>
+                        <a href="{{ item.url }}">{{ item.title }}</a>
+                    </li>
+                {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-4">
+              <h3>Services</h3>
+              <ul>
+                {% for service in site.pages %}
+                  {% if service.path contains 'services/' %}
+                    <li>
+                        <a href="{{ service.url }}">{{ service.title }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h3>Popular Articles</h3>
+              <ul>
+              {% for post in site.posts %}
+                {% if post.featured %}
+                  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+                {% endif %}
+              {% endfor %}
+              </ul>
+            </div>
+        </div>
+    </div>
+</footer>
