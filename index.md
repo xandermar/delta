@@ -39,7 +39,7 @@ layout: default
 </div>
 <div class="container-xxl">
     <div class="row">
-        <div class="col-4 d-flex justify-content-center">
+        <div class="col-lg-4 d-flex justify-content-center mb-3">
             <div class="card text-center" style="width: 18rem;">
                 <img src="https://www.xandermar.com/assets/CU2NF0Jz5pI.jpg" class="card-img-top" alt="Drupal Consulting">
                 <div class="card-body">
@@ -53,7 +53,7 @@ layout: default
                 </div>
             </div>
         </div>
-        <div class="col-4 d-flex justify-content-center">
+        <div class="col-lg-4 d-flex justify-content-center mb-3">
             <div class="card text-center" style="width: 18rem;">
             <img src="https://www.xandermar.com/assets/npxXWgQ33ZQ.jpg" class="card-img-top" alt="Web Design and Hosting">
             <div class="card-body">
@@ -66,7 +66,7 @@ layout: default
             </div>
             </div>
         </div>
-        <div class="col-4 d-flex justify-content-center">
+        <div class="col-lg-4 d-flex justify-content-center mb-3">
             <div class="card text-center" style="width: 18rem;">
             <img src="https://www.xandermar.com/assets/J0ZD8r_ClGg.jpg" class="card-img-top" alt="Easy Signage">
             <div class="card-body">
