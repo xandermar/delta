@@ -8,8 +8,6 @@ list-image: /assets/images/Incident-Response.jpg
 page-image: image
 featured: true
 ---
-## {{ page.title }}
----
 # Incident Response: A Fundamental Approach to Cyber Security
 
 Incident Response (IR) is a structured approach to handling cybersecurity incidents, breaches, or intrusions within an organization. This proactive approach allows organizations to quickly identify, respond, and recover from a cyber attack, minimizing damage and reducing recovery time and costs.

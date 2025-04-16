@@ -8,8 +8,6 @@ list-image: /assets/images/Drupal-Media.jpg
 page-image: image
 featured: false
 ---
-## {{ page.title }}
----
 # Understanding Drupal Media 
 
 Drupal Media is a module that allows users to manage and display media content in Drupal. It provides a comprehensive and flexible system for handling all types of media files, from images and videos to audio files and documents. This article will delve into the essential aspects of Drupal Media, its features, benefits, and how to use it effectively.

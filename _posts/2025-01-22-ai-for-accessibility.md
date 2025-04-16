@@ -9,8 +9,6 @@ page-image: image
 featured: false
 permalink: /blog/ai-for-accessibility.html
 ---
-## {{ page.title }}
----
 # AI for Accessibility 
 
 ## Introduction 

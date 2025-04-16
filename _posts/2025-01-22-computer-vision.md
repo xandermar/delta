@@ -9,8 +9,6 @@ page-image: image
 featured: false
 permalink: /blog/computer-vision.html
 ---
-## {{ page.title }}
----
 # Computer Vision
 
 Computer Vision is a groundbreaking field of computer science that replicates the human visual system by enabling computers to interpret, process, and make decisions based on visual data. It exploits the advancements in machine learning and artificial intelligence to recognize patterns, analyze images, and provide insightful information. This technology has brought about a paradigm shift in various sectors such as healthcare, surveillance, automotive, and many more, driving innovation and enhancing productivity.

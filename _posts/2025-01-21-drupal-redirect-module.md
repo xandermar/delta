@@ -9,8 +9,6 @@ page-image: image
 featured: false
 permalink: /blog/drupal-redirect-module.html
 ---
-## {{ page.title }}
----
 # Drupal Redirect Module
 
 The Redirect Module is one of the most widely used modules in the Drupal CMS ecosystem. It is a powerful tool that allows site administrators to manage URL redirections in a user-friendly interface. This article will delve into the in-depth details of the Drupal Redirect Module, its features, benefits, and how to use it effectively.

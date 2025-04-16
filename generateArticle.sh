@@ -77,8 +77,8 @@ echo "page-image: image" >> "_posts/$filename"
 echo "featured: false" >> "_posts/$filename"
 echo "permalink: /blog/${formatted_string}.html" >> "_posts/$filename"
 echo "---" >> "_posts/$filename"
-echo "## {{ page.title }}" >> "_posts/$filename"
-echo "---" >> "_posts/$filename"
+# echo "## {{ page.title }}" >> "_posts/$filename"
+# echo "---" >> "_posts/$filename"
 
 # Append the article to the file
 echo "$article" >> "_posts/$filename"

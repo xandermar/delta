@@ -9,8 +9,6 @@ page-image: image
 featured: false
 permalink: /blog/incident-management-systems.html
 ---
-## {{ page.title }}
----
 # Incident Management Systems
 
 ## Introduction

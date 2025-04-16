@@ -9,8 +9,6 @@ page-image: image
 featured: false
 permalink: /blog/explainable-ai.html
 ---
-## {{ page.title }}
----
 # Explainable AI: An In-depth Overview
 
 Explainable AI, also known as XAI, is a subset of artificial intelligence. Its primary objective is to describe the internal mechanics and decision-making processes of machine learning models in a way that humans can understand. As AI technologies continue to evolve and play an increasingly significant role in various sectors, the need for transparency and interpretability has become more critical than ever before. This article will delve into the concept of Explainable AI, its importance, and the challenges it presents.

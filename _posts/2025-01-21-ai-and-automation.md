@@ -8,8 +8,6 @@ list-image: /assets/images/AI-and-Automation.jpg
 page-image: image
 featured: false
 ---
-## {{ page.title }}
----
 # AI and Automation: The Future of Industries
 
 Artificial Intelligence (AI) and automation are two buzzwords that have been making the rounds in the tech industry for the past few years. Both technologies have brought about significant innovation and upheaval in various sectors, transforming the way we work, communicate, and live. This article aims to throw light on the intersection of AI and automation, and how they are shaping the future of industries globally.

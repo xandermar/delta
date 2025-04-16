@@ -8,8 +8,6 @@ list-image: /assets/images/Unsupervised-Learning.jpg
 page-image: image
 featured: false
 ---
-## {{ page.title }}
----
 # Introduction to Unsupervised Learning
 
 Unsupervised Learning is one of the key concepts in machine learning and artificial intelligence that involves the use of machine learning algorithms to identify patterns in datasets containing data points that are neither classified nor labeled. This learning model allows the system to act on that information without guidance.
