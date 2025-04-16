@@ -93,6 +93,6 @@ echo "$article" >> "_posts/$filename"
 
 echo "Blog post created: $filename"
 
-git add . && git commit -m "Added article about $TOPIC" && git push origin main
+git add . && git commit -m "Added article about $TOPIC" && git push
 echo "Pushed to GitHub"
 echo "Done!"
