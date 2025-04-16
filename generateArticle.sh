@@ -92,3 +92,7 @@ echo "$article" >> "_posts/$filename"
 # INSTAGRAM=$(./postToInstagram.sh "$TOPIC")
 
 echo "Blog post created: $filename"
+
+git add . && git commit -m "Added article about $TOPIC" && git push origin main
+echo "Pushed to GitHub"
+echo "Done!"
