@@ -47,7 +47,7 @@ EOF
 # Make the API request and save the response
 response=$(curl -s -X POST $URL \
   -H "Content-Type: application/json" \
-  -H "Authorization: Bearer $API_KEY" \
+  -H "Authorization: Bearer ${API_KEY}" \
   -d "$PAYLOAD")
 
 # Extract the response content from the JSON
