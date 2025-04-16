@@ -11,9 +11,6 @@ TOPIC="$1"
 
 CHARCOUNT=450
 
-# API key for OpenAI
-API_KEY="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"
-
 # ChatGPT endpoint
 API_URL="https://api.openai.com/v1/chat/completions"
 
@@ -23,7 +20,7 @@ PROMPT="Generate a description for an article with the topic '$TOPIC' in no more
 # Make the API request
 response=$(curl -s -X POST $API_URL \
   -H "Content-Type: application/json" \
-  -H "Authorization: Bearer $API_KEY" \
+  -H "Authorization: Bearer ${API_KEY}" \
   -d '{
     "model": "gpt-4",
     "messages": [{"role": "user", "content": "'"$PROMPT"'"}],
