@@ -1,0 +1,19 @@
+name: Run Process Every 24 Hours
+
+on:
+  schedule:
+    # Runs every 24 hours (at midnight UTC)
+    - cron: '0 0 * * *'
+
+jobs:
+  run_process:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Generate Article
+      run: |
+        echo "Generating AI Article..."
+        ./generateArticle.sh

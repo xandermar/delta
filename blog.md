@@ -12,7 +12,7 @@ permalink: /blog
           <div class="card mb-3">
           <div class="row g-0">
               <div class="col-md-3">
-              <img width="320px" src="{{ post.list-image }}" class="img-fluid rounded-start" alt="...">
+              <img src="{{ post.list-image }}" class="img-fluid rounded-start" alt="{{ post.title }}">
               </div>
               <div class="col-md-9">
               <div class="card-body">
