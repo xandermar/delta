@@ -11,14 +11,11 @@ TOPIC="$1"
 
 CHARCOUNT=450
 
-# ChatGPT endpoint
-API_URL="https://api.openai.com/v1/chat/completions"
-
 # Prompt for ChatGPT
 PROMPT="Generate a description for an article with the topic '$TOPIC' in no more than $CHARCOUNT characters."
 
 # Make the API request
-response=$(curl -s -X POST $API_URL \
+response=$(curl -s -X POST ${API_URL} \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer ${API_KEY}" \
   -d '{
