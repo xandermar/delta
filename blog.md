@@ -6,7 +6,7 @@ permalink: /blog
 <div class="container-xxl">
   <div class="row">
     <div class="col">
-      <h2>{{ page.title }}</h2>
+      <h1>{{ page.title }}</h1>
       <ul>
         {% for post in site.posts %}
           <div class="card mb-3">

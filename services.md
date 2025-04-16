@@ -6,7 +6,7 @@ permalink: /services
 <div class="container-xxl">
   <div class="row">
     <div class="col">
-    <h2>{{ page.title }}</h2>
+    <h1>{{ page.title }}</h1>
       <ul>
         {% for service in site.pages %}
           {% if service.path contains 'services/' %}

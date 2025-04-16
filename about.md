@@ -6,7 +6,7 @@ permalink: /about
 <div class="container-xxl">
   <div class="row">
     <div class="col">
-    <h2>{{ page.title }}</h2>
+    <h1>{{ page.title }}</h1>
 
 <h3>And So It Began&hellip;</h3>
 <p>Xandermar was founded in 2010. We are a small business that caters to website development. We focus on websites, plain and simple. From drafting, branding and planning to multi-platform production, we deliver engaging and functional websites to our clients both small business and large Enterprise agencies.</p>
